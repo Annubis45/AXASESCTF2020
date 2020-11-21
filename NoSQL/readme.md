@@ -1,7 +1,7 @@
 
-## No Sequel 
+# No Sequel 
 
-# The challenge:
+## The challenge
 
 A lot of people told me about SQL injection. So, i've been thinking: If I use NoSQL, I'm protected against injection, right? RIGHT?
 
@@ -34,7 +34,7 @@ app.post('/login', (req, res) => {
 });
 ```
 
-# Writeup
+## Writeup
 
 We can see there is no filer it the variables or the query.
 So we can inject a NoSQL query:
@@ -49,9 +49,9 @@ the return : axactf{n05ql_d0e5_n07_m34n_n0_1nj3ct10n}
 
 
 
-## No Sequel: Second Impact
+# No Sequel: Second Impact
 
-# The challenge:
+## The challenge
 
 So, ok, maybe my first thought about injection wasn't good: NoSQL doesn't mean that i'm protected. So, this time, i won't make the same error twice. I'll check the password! Note: both No Sequel challenges are using the same DB / data
 
@@ -86,7 +86,7 @@ app.post('/hard-login', (req, res) => {
 });
 ```
 
-# Writeup
+## Writeup
 
 We juste need the password of the admin user from the previous challenge.
 We 're going to craft the request to find the  password of the admin user character by character. Using the same technique than SQL challenges.

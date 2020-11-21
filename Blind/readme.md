@@ -1,7 +1,7 @@
 
-## Blind
+# Blind
 
-# The challenge:
+## The challenge
 
 I'm totally blind ... or am i?
 
@@ -9,7 +9,7 @@ Connect using nc 13.251.87.147 5002
 
 
 
-# Writeup
+## Writeup
 
 We do a nc 13.251.87.147 5002.
 We find a kind of bash. Testing few command (cat, ls etc...) we got in return a integer (0,1 or 127 in my test).

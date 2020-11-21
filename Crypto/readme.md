@@ -1,8 +1,8 @@
-### Crypto
+# Crypto
 
-## FUN
+# FUN
 
-# The challenge
+## The challenge
 
 Here is the flag:
 
@@ -12,23 +12,23 @@ It has been encoded with some strange, "unbreakable" cipher, will you find what 
 
 Hint: The key is the last name of the one who first described (the REAL inventor) this famous "unbreakable" cipher ... that is not caesar!
 
-# Writeup
+## Writeup
 
 Its a vigenere encoding with the key :  BELLASO
 
 axactf{th1s_guy_1nv3nt3d_s0meth1ng_aw3s0me}
 
 
-## The return of the FUN!
+# The return of the FUN!
 
-# The challenge
+## The challenge
 
 Now, we have a very passionated guy that encoded the flag with "axa" ... How to decode it? I wonder ...
 
 aaxxxxaxaaaaxxxxaaxxxxaxaaxxxaaxaaaxaxxxaaxxaaxxaaaaxaaxaaaxxaaxxaaxaaaxxaaxaxxxaaaxxaxxxaaxaaaxxaaxxxaxaaxaaaxxaaxxaaaxaxaaaaaxaaxxxaaxaaaxxaxxaaaaxxaxaaaxxxxxaaaxaxxxxaaxxxxxaxaaaaaxxaaxxxaxxaaxxxxxxaaxxxaxaxaaaaaxaaaxaaaxxaaxxxaxxaaxaaaxaaxaxxxxaxaaaaaxaaxaaxaxaaaxaxaxaaxaaxxxxaaxaaaxxaaxxxaxaaaxxxxxaaxaaxxxxaaxxaaxaxaaaaaxaaaxxaaxaaaxaxxxxaaxxaaxaaaxxxxxaaaxxaaxaaaaaxa
 only 2 letters huh? And it's not using any cipher or any super complex encoding methodology ...
 
-# Writeup
+## Writeup
 
 It's a binary encoding a=0 and x=1
 
@@ -40,9 +40,9 @@ axactf{s74r71ng_crypt0_101_w17h_mul71pl3_st3ps}
 
 
 
-## Really Secure Algorithm
+# Really Secure Algorithm
 
-# The challenge
+## The challenge
 
 This is no joke: a Really Secure Algorithm!
 
@@ -53,7 +53,7 @@ c = 3488475450415021653455336991104105602572835488702692132129068809171867415698
 
 Will you be able to decrypt it?
 
-# Writeup
+## Writeup
 
 we need to find the 2 primes number of n. Using factorbd : 
 http://factordb.com/index.php?query=3933040695755526216762716530555881218562437822109718517317094901575710404204917634838294452247801386017769920938299165176835481978219593420852584340147439
@@ -81,9 +81,9 @@ Flag is : axa_ctf{rs4_1s_n0t_th4t_c0mpl1c4t3d_1_gu355}
 
 
 
-## MD5
+# MD5
 
-# The challenge
+## The challenge
 
 
 I don't think that my usage of MD5 is very good. What do you think?
@@ -110,7 +110,7 @@ app.get('/', (req, res) => {
 ```
 
 
-# Writeup
+## Writeup
 
 we see the comparaison on parsint in JS. So if the MD5 is starting with 55as5as55ef5, parseInt will return 55.
 So a collision is higly probable.

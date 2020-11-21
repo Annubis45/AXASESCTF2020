@@ -1,12 +1,12 @@
 
-## eXtremely Messed up Lad
+# eXtremely Messed up Lad
 
-# The challenge
+## The challenge
 
 I've created a hacker name generator. I wonder what you'll find ...
 
 
-# Writeup
+## Writeup
 
 We are facing a page with 2 input.
 and the JS code :

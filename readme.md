@@ -1,29 +1,27 @@
-## AXA SES Capture the Flag Challenge.
+# AXA SES Capture the Flag Challenge.
 
 
-# SQL :
+### SQL :
 
 [SQL](/SQL/readme.md)
 
-# NoSQL :
+### NoSQL :
 
 [NoSQL](/NoSQL/readme.md)
 
-# Web :
+### Web :
 
-[web](/wev/readme.md)
+[Web](/web/readme.md)
 
-# Crypto :
+### Crypto :
 
 [Crypto](/Crypto/readme.md)
 
-
-# Blind :
+### Blind :
 
 [Blind](/Blind/readme.md)
 
-
-# XML :
+### XML :
 
 [XML](/XML/readme.md)
 

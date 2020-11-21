@@ -1,8 +1,8 @@
 
 
-## SQL Basics 
+# SQL Basics 
 
-# The challenge:
+## The challenge
 
 I'm setting up my login page using PHP & MySQL ... How bad can it be? How secure is it? How to login when you don't have the password?
 
@@ -47,7 +47,7 @@ if (array_key_exists("username", $_REQUEST)) {
 ```
 
 
-# Writeup
+## Writeup
 
 We can see there is a SQL injection vuln. 
 We put 
@@ -59,9 +59,9 @@ axactf{th4t_w45_s0m3_v2ry_b4s1c_stuff}
 
 
 
-## SQL Intermediate
+# SQL Intermediate
 
-# The challenge:
+## The challenge
 
 Second attempt at making a PHP page. Just a "user exist" confirmation page. It cannot leak anything right ... But, how can you retrieve the password (base64)?
 
@@ -107,7 +107,7 @@ if (array_key_exists("username", $_REQUEST)) {
 ```
 
 
-# Writeup
+## Writeup
 
 It's again an injection but the only thing we have in return is "this user exists" or "this user doesn't exist".
 So if we test 
@@ -148,9 +148,9 @@ we got  : YXhhY3Rme2cxdjNfbTNfYjRja19teV8zeTM1XzFFBV9iBDFUZH0=
 base64 decoded : #axactf{g1v3_m3_b4ck_my_3y35_1_m_bl1nd}
 
 
-## SQL Hardcore
+# SQL Hardcore
 
-# The challenge:
+## The challenge
 Alright, so this time, my PHP app is super protected and cannot leak any information ... because i commented it out!
 
 http://54.254.115.115:5002/
@@ -197,7 +197,7 @@ if (array_key_exists("username", $_REQUEST)) {
 ```
 
 
-# Writeup
+## Writeup
 
 
 It's again an injection but with no return.
