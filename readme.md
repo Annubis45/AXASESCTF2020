@@ -5,7 +5,7 @@
 
 [NoSQL](/NoSQL/readme.md)
 
-[Web](/Wb/readme.md)
+[Web](/Web/readme.md)
 
 [Crypto](/Crypto/readme.md)
 
