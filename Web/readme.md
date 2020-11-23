@@ -230,7 +230,7 @@ app.use((req, res, next) => {
 
 ## Writeup
 
-I didn't managed to end this challenge. A frind gave me a tips after the end of the CTF.
+I didn't managed to end this challenge. A friend gave me a tip after the end of the CTF.
 
 First we can see that that is again a JWT forgery challenge. 
 We quicly understant that we need to craft a jwt with a admin perms. 
